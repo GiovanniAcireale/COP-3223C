@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\alexa\Desktop\Projects\COP 3223C\Notes\Assignment1_1\Source.c(69,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\alexa\Desktop\Projects\COP 3223C\Notes\Assignment1_1\Source.c(75,2): warning C4098: 'main': 'void' function returning a value
+  Assignment1_1.vcxproj -> C:\Users\alexa\Desktop\Projects\COP 3223C\Notes\Assignment1_1\x64\Debug\Assignment1_1.exe

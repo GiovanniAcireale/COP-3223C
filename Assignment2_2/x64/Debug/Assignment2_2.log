@@ -1,0 +1,4 @@
+﻿  Assignment2_2.c
+C:\Users\alexa\Desktop\Projects\COP 3223C\Notes\Assignment2_2\Assignment2_2.c(29,6): warning C4013: 'gcd' undefined; assuming extern returning int
+C:\Users\alexa\Desktop\Projects\COP 3223C\Notes\Assignment2_2\Assignment2_2.c(48): warning C4715: 'gcd': not all control paths return a value
+  Assignment2_2.vcxproj -> C:\Users\alexa\Desktop\Projects\COP 3223C\Notes\Assignment2_2\x64\Debug\Assignment2_2.exe
