@@ -1,0 +1,4 @@
+﻿  Acireale_Giovanni_Assignment3_1.c
+C:\Users\Gio\Desktop\Portfolio\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,34): error C2065: 'size': undeclared identifier
+C:\Users\Gio\Desktop\Portfolio\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,34): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+C:\Users\Gio\Desktop\Portfolio\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,30): warning C4024: 'findName': different types for formal and actual parameter 2
