@@ -27,7 +27,7 @@ numbers[9]=9.9;
 
 b) Define a pointer, nPtr, that points to a float.
 
-float *nPtr;
+float *nPtr = numbers;
 
 c) Use a for statement and array subscript notation to print array numbers’ elements. Use one digit of precision to the right of the decimal point.
 
@@ -39,6 +39,7 @@ for(int i=0;i<SIZE;i++)
 d) Give two separate statements that assign the starting address of array numbers to the pointer variable nPtr.
 
 nPtr=&numbers[0];
+nPtr=numbers;
 
 e) Print numbers’ elements using pointer/offset notation with the pointer nPtr.
 
@@ -71,14 +72,11 @@ printf("4th Element with pointer notation with nPtr : %.1f \n",*(nPtr + 3));
 
 i) Assuming that nPtr points to the beginning of array numbers, what address is referenced by nPtr + 8? What value is stored at that location?
 
-printf("\nAddress is referenced by nPtr+8 is : %d \n",nPtr+8);
-
-nPtr = &numbers[5];
-nPtr-=4;
+printf("\nAddress is referenced by nPtr+8 is : %d \n",nPtr+8); // value is 8.8
 
 j) Assuming that nPtr points to numbers[5], what address is referenced by nPtr –= 4? What’s the value stored at that location?
 
-printf("\nAddress is referenced by nPtr -= 4 is : %d \n", nPtr-4);
+printf("\nAddress is referenced by nPtr -= 4 is : %d \n", nPtr-4); // value is 1.1
 
 
 Question 2:

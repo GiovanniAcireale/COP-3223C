@@ -24,8 +24,8 @@ f) Determine whether the hand contains a straight (i.e., five cards of consecuti
 #define CARDS 52
 
 // prototypes
-void shuffle(int deck[][FACES]);
-void deal(const int deck[][FACES], unsigned int hand[][2], const char *face[], const char *suit[]);
+void shuffle(unsigned int deck[][FACES]);
+void deal(unsigned int deck[][FACES], unsigned int hand[][2], const char *face[], const char *suit[]);
 
 void pair(unsigned int hand[][2], const char *face[], const char *suit[]);
 void twoPair(unsigned int hand[][2], const char *face[], const char *suit[]);
@@ -39,18 +39,18 @@ int main(void) {
 	int deck[SUITS][FACES] = {0};
 
 	// initialize hand array
-	int hand[5][2] = {0};
+	unsigned int hand[5][2] = {0};
+
+	// initialize suit array
+	const char* suit[SUITS] = { "Hearts", "Diamonds", "Clubs", "Spades" };
+
+	// initialize face array
+	const char* face[FACES] = { "Ace", "Deuce", "Three", "Four", "Five",
+							   "Six", "Seven", "Eight", "Nine", "Ten",
+							   "Jack", "Queen", "King" };
 
 	srand(time(NULL)); // seed random-number generator
 	shuffle(deck); // shuffle the deck
-
-	// initialize suit array
-	const char *suit[SUITS] = {"Hearts", "Diamonds", "Clubs", "Spades"};
-
-	// initialize face array
-	const char *face[FACES] = {"Ace", "Deuce", "Three", "Four", "Five",
-							   "Six", "Seven", "Eight", "Nine", "Ten",
-							   "Jack", "Queen", "King"};
 
 	deal(deck, hand, face, suit); // deal the deck
 
@@ -64,7 +64,7 @@ int main(void) {
 }
 
 // shuffle cards in deck
-void shuffle(int deck[][FACES]) {
+void shuffle(unsigned int deck[][FACES]) {
 	// for each of the cards, choose slot of deck randomly
 	for (size_t card = 1; card <= CARDS; ++card) {
 		size_t row = 0;    // row number
@@ -81,7 +81,7 @@ void shuffle(int deck[][FACES]) {
 }
 
 // deal cards in deck
-void deal(int deck[][FACES], unsigned int hand[][2], const char *face[], const char *suit[]) {
+void deal(unsigned int deck[][FACES], unsigned int hand[][2], const char *face[], const char *suit[]) {
 	// position counter for hand
 	int r = 0;
 
@@ -106,6 +106,7 @@ void deal(int deck[][FACES], unsigned int hand[][2], const char *face[], const c
 	puts("\n");
 }
 
+// checks for cards of the same face
 void pair(unsigned int hand[][2], char* face[], char* suit[]) {
 	int counter[FACES]= {0};
 	size_t r, p;
@@ -121,6 +122,7 @@ void pair(unsigned int hand[][2], char* face[], char* suit[]) {
 	}
 }
 
+// checks for two sets of cards with the same face
 void twoPair(unsigned int hand[][2], char* face[], char* suit[]) {
 	int counter[FACES]= {0};
 	size_t r, p;
@@ -141,6 +143,7 @@ void twoPair(unsigned int hand[][2], char* face[], char* suit[]) {
 	}
 }
 
+// checks for three cards with the same face
 void threeOfAKind(unsigned int hand[][2], char* face[], char* suit[]) {
 	int counter[FACES]= {0};
 	size_t r, p;
@@ -156,6 +159,7 @@ void threeOfAKind(unsigned int hand[][2], char* face[], char* suit[]) {
 	}
 }
 
+// checks for four cards with the same face
 void fourOfAKind(unsigned int hand[][2], char* face[], char* suit[]) {
 	int counter[FACES]= {0};
 	size_t r, p;
@@ -171,6 +175,7 @@ void fourOfAKind(unsigned int hand[][2], char* face[], char* suit[]) {
 	}
 }
 
+// checks for a flush
 void flush(unsigned int hand[][2], char* face[], char* suit[]) {
 	int counter[SUITS]= {0};
 	size_t r, p;
@@ -186,6 +191,7 @@ void flush(unsigned int hand[][2], char* face[], char* suit[]) {
 	}
 }
 
+// checks for a straight
 void straight(unsigned int hand[][2], char* face[], char* suit[]) {
 	int hand2[5] = {0};
 	int temp;

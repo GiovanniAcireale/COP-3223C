@@ -1,19 +1,18 @@
 ﻿  Lab7B.c
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(44,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(79,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(84,15): warning C4028: formal parameter 1 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(52,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(79,23): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(98,19): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(99,19): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(109,41): warning C4028: formal parameter 2 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(109,55): warning C4028: formal parameter 3 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(124,44): warning C4028: formal parameter 2 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(124,58): warning C4028: formal parameter 3 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(144,49): warning C4028: formal parameter 2 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(144,63): warning C4028: formal parameter 3 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(159,48): warning C4028: formal parameter 2 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(159,62): warning C4028: formal parameter 3 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(174,42): warning C4028: formal parameter 2 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(174,56): warning C4028: formal parameter 3 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(189,45): warning C4028: formal parameter 2 different from declaration
-C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(189,59): warning C4028: formal parameter 3 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(110,41): warning C4028: formal parameter 2 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(110,55): warning C4028: formal parameter 3 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(125,44): warning C4028: formal parameter 2 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(125,58): warning C4028: formal parameter 3 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(145,49): warning C4028: formal parameter 2 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(145,63): warning C4028: formal parameter 3 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(160,48): warning C4028: formal parameter 2 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(160,62): warning C4028: formal parameter 3 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(175,42): warning C4028: formal parameter 2 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(175,56): warning C4028: formal parameter 3 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(190,45): warning C4028: formal parameter 2 different from declaration
+C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\Lab7B.c(190,59): warning C4028: formal parameter 3 different from declaration
   Lab7B.vcxproj -> C:\Users\alexa\Desktop\Projects\COP-3223C\Lab7B\x64\Debug\Lab7B.exe
