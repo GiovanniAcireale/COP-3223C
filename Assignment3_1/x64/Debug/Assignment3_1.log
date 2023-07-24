@@ -1,4 +1,7 @@
 ﻿  Acireale_Giovanni_Assignment3_1.c
-C:\Users\Gio\Desktop\Portfolio\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,34): error C2065: 'size': undeclared identifier
-C:\Users\Gio\Desktop\Portfolio\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,34): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
-C:\Users\Gio\Desktop\Portfolio\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,30): warning C4024: 'findName': different types for formal and actual parameter 2
+C:\Users\alexa\Desktop\Projects\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,29): warning C4047: 'function': 'char **' differs in levels of indirection from 'char *'
+C:\Users\alexa\Desktop\Projects\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,23): warning C4024: 'findName': different types for formal and actual parameter 1
+C:\Users\alexa\Desktop\Projects\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,36): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+C:\Users\alexa\Desktop\Projects\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(124,31): warning C4024: 'findName': different types for formal and actual parameter 2
+C:\Users\alexa\Desktop\Projects\COP-3223C\Assignment3_1\Acireale_Giovanni_Assignment3_1.c(126,16): warning C4022: 'free': pointer mismatch for actual parameter 1
+  Assignment3_1.vcxproj -> C:\Users\alexa\Desktop\Projects\COP-3223C\Assignment3_1\x64\Debug\Assignment3_1.exe

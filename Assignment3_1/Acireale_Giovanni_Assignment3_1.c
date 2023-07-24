@@ -121,21 +121,13 @@ void removeName(char** names, int* size, char* name)
 {
 	// Declare variables
 	int i;
-	int index = findName(names, size, name);
-	if (index == -1)
-	{
-		printf("Name not found\n");
-	}
-	else
-	{
-		// remove the name from the array
-		for (i = index; i < *size - 1; i++)
-		{
-			strcpy(names[i], names[i + 1]);
+	int index = findName(*names, *size, name);
+	if (index != -1) {
+		free((*names)[index]);
+		for (i = index; i < *size - 1; i++) {
+			(*names)[i] = (*names)[i + 1];
 		}
-		// resize the array
-		*size = *size - 1;
-
+		(*size)--;
 	}
 	
 }
